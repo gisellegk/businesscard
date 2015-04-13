@@ -1,0 +1,37 @@
+body {
+	position: relative;
+}
+#profile {
+	position: absolute;
+	width: 67%;
+	bottom: 50%;
+	left: 0%;
+	text-align: center;
+}
+#contact {
+	position: relative;
+	float: right;
+	left: -50%
+}
+.square {
+	position: relative;
+	float: right;
+	left: 50%;
+	margin: 2px;
+}
+
+#navigation {
+	position: absolute;
+	width: 33%;
+	right: 0%;
+	height: 100%;
+	display: table;
+}
+.rectangle{
+	display: table-row;
+}
+.rectangle a {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
